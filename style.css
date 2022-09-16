@@ -1,0 +1,162 @@
+/* html {
+  scroll-behavior: smooth;
+}
+a {
+  color: orchid;
+  font-size: 12px;
+}
+#about-me {
+  color: blue;
+}
+.description {
+  color: rgb(0, 149, 255);
+}
+/* .paragraph {
+  font-size: 16px;
+/* } */
+/* 
+* {
+  color: gray;
+}
+
+h1,
+#about-me,
+.description {
+  color: palevioletred;
+}
+
+ul li {
+  color: lightcoral;
+} */
+
+/* header img {
+  width: 130px;
+  height: 130px;
+}
+/*  */
+.first-child + li {
+  color: purple;
+}
+*/
+/* 
+.first-child ~ li {
+  color: chocolate;
+}
+a {
+  color: mediumslateblue;
+  font-size: 20px;
+}
+a:visited {
+  color: navy;
+  font-size: 20px;
+}
+a:hover {
+  color: green;
+  font-size: 20px;
+}
+a:active {
+  color: orange;
+  font-size: 20px;
+}
+li:first-child {
+  color: hotpink;
+}
+li:last-child {
+  color: #264b56;
+} */
+/* 
+h1::before {
+  content: "*";
+}
+h1::after {
+  content: "*";
+  color: red;
+}
+
+[target] {
+  color: blueviolet;
+}
+
+[target="_parent"] {
+  color: blueviolet;
+}
+
+[href="#"] {
+  color: blue;
+/* } 
+
+/* 
+@font-face {
+  font-family: "Poppins";
+  src: url("/assets/fonts/woff/Poppins-Light.woff") format("woff"),
+    url("/assets/fonts/ttf/Poppins-Light.ttf") format("ttf");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("/assets/fonts/woff/Poppins-Medium.woff") format("woff"),
+    url("/assets/fonts/ttf/Poppins-Medium.ttf") format("ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("/assets/fonts/woff/Poppins-Regular.woff") format("woff"),
+    url("/assets/fonts/ttf/Poppins-Regular.ttf");
+  font-weight: 500;
+} */
+
+* {
+  font-family: "Poppins", sans-serif;
+  color: #333533;
+}
+
+/* html {
+  font-size: 18px;
+} */
+
+body {
+  background-color: #f5f5f5;
+}
+
+a {
+  text-decoration: none;
+  /* font-size: 0.8rem; */
+  /* font-size: 20px;
+  margin-right: 20px; */
+}
+
+.header {
+  background-color: #333533;
+  height: 376px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header .title {
+  color: #ffd100;
+  font-size: 56px;
+}
+
+.header .position {
+  color: #f5f5f5;
+  font-size: 32px;
+}
+
+.button {
+  color: #ffd100;
+  border: 1px solid #ffd100;
+  border-radius: 4px;
+}
+
+.lang {
+  color: #f5f5f5;
+  border: 1px solid #f5f5f5;
+  border-radius: 4px;
+}
+
+.header img {
+  width: 290px;
+  height: 290px;
+  border-radius: 50%;
+}
